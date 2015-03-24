@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.test"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+
+
+    <com.example.test.HSVColorPicker
+        android:layout_centerInParent="true"
+        android:id="@+id/hSVColorPicker"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        custom:hsv_background="@drawable/hue"
+        custom:hs_v_margin="20dp"
+        custom:hs_picker_radius="20dp"
+        custom:v_picker_width="10dp"
+        custom:v_width="30dp"
+ />
+
+</RelativeLayout>

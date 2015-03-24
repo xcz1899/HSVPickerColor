@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HSVColorPicker">
+        <attr name="hsv_background" format="reference" />
+        <attr name="hs_picker_radius" format="dimension" />
+        <attr name="v_width" format="dimension" />
+        <attr name="hs_v_margin" format="dimension" />
+          <attr name="v_picker_width" format="dimension" />
+    </declare-styleable>
+
+</resources>
